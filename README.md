@@ -11,13 +11,13 @@ These are the steps that are followed will doing the project
 - and y dataframe has output/target variable.
 - As we know the target variable is given then the type of the problem comes under __supervised learning.__
 - Target variable has __nominal data__ so, __classification algorithm__ and __evaluation metrics__ can be applied on the data
-<b>Step - 3:</b> Split the dataset into Training and Testing
+<br><b>Step - 3:</b> Split the dataset into Training and Testing<br/>
 - Here, the data is splited into 75:25 ratio
-<b>Step - 4:</b>Data preparation on train data:
+<br><b>Step - 4:</b>Data preparation on train data:<br/>
 - serperating catogorical and numerical data in x_train dataframe
 - applying __Stadardization__ on Numerical data.
 - applying __OneHot Encoding and Lable Encoding__ on Catagorical data.
-<b>Step - 5</b>: Data preparation on test data:
+<br><b>Step - 5</b>: Data preparation on test data:<br/>
 <b>Step - 6</b>: Model Training Phase - Use all the algorithms mentioned below to train separate models:
 - KNN
 - Logistic Regression
