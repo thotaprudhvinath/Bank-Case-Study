@@ -4,7 +4,7 @@ __Problem Statement -__ Given various fratures about a customer like Age, Incomm
 __Task -__ Prepare the data and build a model to predict if a customer is going to default or not on the Loan payments.
 
 These are the steps that are followed will doing the project
-<b>step- 1 :-<b/> loading the data
+<br><b>step- 1 :-<b/> loading the data<br/>
 <b>step- 2 :-<b/> Document the below mentioned points properly.
 - Identify the input and output/target variables.
 - Here,x dataframe has input variables.
