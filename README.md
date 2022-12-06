@@ -4,24 +4,31 @@ __Problem Statement -__ Given various fratures about a customer like Age, Incomm
 __Task -__ Prepare the data and build a model to predict if a customer is going to default or not on the Loan payments.
 
 These are the steps that are followed will doing the project
+
 <br><b>step- 1 :-<b/> loading the data<br/>
+  
 <b>step- 2 :-<b/> Document the below mentioned points properly.
 1. Identify the input and output/target variables.
-- Here,x dataframe has input variables.
-- and y dataframe has output/target variable.
-- As we know the target variable is given then the type of the problem comes under __supervised learning.__
-- Target variable has __nominal data__ so, __classification algorithm__ and __evaluation metrics__ can be applied on the data
+2. Here,x dataframe has input variables.
+3. and y dataframe has output/target variable.
+4. As we know the target variable is given then the type of the problem comes under __supervised learning.__
+5. Target variable has __nominal data__ so, __classification algorithm__ and __evaluation metrics__ can be applied on the data
+  
 <br><b>Step - 3:</b> Split the dataset into Training and Testing<br/>
-- Here, the data is splited into 75:25 ratio
+a. Here, the data is splited into 75:25 ratio
+  
 <br><b>Step - 4:</b>Data preparation on train data:<br/>
-- serperating catogorical and numerical data in x_train dataframe
-- applying __Stadardization__ on Numerical data.
-- applying __OneHot Encoding and Lable Encoding__ on Catagorical data.
+a. serperating catogorical and numerical data in x_train dataframe
+b. applying __Stadardization__ on Numerical data.
+c. applying __OneHot Encoding and Lable Encoding__ on Catagorical data.
+  
 <br><b>Step - 5</b>: Data preparation on test data:<br/>
+  
 <b>Step - 6</b>: Model Training Phase - Use all the algorithms mentioned below to train separate models:
-- KNN
-- Logistic Regression
-- Support Vector Machines
-- Decision Trees
-- Random Forest
+1. KNN
+2. Logistic Regression
+3. Support Vector Machines
+4. Decision Trees
+5. Random Forest
+  
 <b>Step - 7</b>: Evaluating the preformance of the model by using accuracy_score metrics
