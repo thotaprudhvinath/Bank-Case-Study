@@ -7,12 +7,13 @@ These are the steps that are followed will doing the project
 
 <br><b>step- 1 :-<b/> loading the data<br/>
   
-<b>step- 2 :-<b/> Document the below mentioned points properly.
+~~step- 2 :-~~ Document the below mentioned points properly.
 1. Identify the input and output/target variables.
 2. Here,x dataframe has input variables.
 3. and y dataframe has output/target variable.
 4. As we know the target variable is given then the type of the problem comes under __supervised learning.__
 5. Target variable has __nominal data__ so, __classification algorithm__ and __evaluation metrics__ can be applied on the data
+
 <br><b>Step - 3:</b> Split the dataset into Training and Testing<br/>
 a. Here, the data is splited into 75:25 ratio
   
